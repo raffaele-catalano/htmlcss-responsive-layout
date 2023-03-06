@@ -22,6 +22,14 @@ a:hover {
   cursor: pointer;
 }
 
+.container {
+  width: 95%;
+  margin: 0 auto;
+  /*debug*/
+  background-color: rgb(247, 247, 232);
+  border: 1px solid black;
+}
+
 .desktop {
   display: none;
 }
