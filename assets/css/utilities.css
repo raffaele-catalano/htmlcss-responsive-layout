@@ -1,0 +1,119 @@
+.d-flex {
+  display: flex;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-dir-col{
+  flex-direction: column;
+}
+
+.align-cx {
+  align-items: center;
+}
+
+.just-cont-cx {
+  justify-content: center;
+}
+
+.strong {
+  font-weight: 900;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.caps {
+  text-transform: capitalize;
+}
+
+.px-1 {
+  padding: 0 10px;
+}
+
+.px-2 {
+  padding: 0 20px;
+}
+
+.px-3 {
+  padding: 0 30px;
+}
+
+.px-4 {
+  padding: 0 40px;
+}
+
+.py-1 {
+  padding: 10px 0;
+}
+
+.py-2 {
+  padding: 20px 0;
+}
+
+.py-3 {
+  padding: 30px 0;
+}
+
+.py-4 {
+  padding: 40px 0;
+}
+
+.mx-1 {
+  margin: 0 10px;
+}
+
+.mx-2 {
+  margin: 0 20px;
+}
+
+.mx-3 {
+  margin: 0 30px;
+}
+
+.mx-4 {
+  margin: 0 40px;
+}
+
+.my-1 {
+  margin: 10px 0;
+}
+
+.my-2 {
+  margin: 20px 0;
+}
+
+.my-3 {
+  margin: 30px 0;
+}
+
+.my-4 {
+  margin: 40px 0;
+}
+
+.txt-09 {
+  font-size: 0.9rem;
+}
+
+.txt-11 {
+  font-size: 1.1rem;
+}
+
+.txt-12 {
+  font-size: 1.2rem;
+}
+
+.txt-15 {
+  font-size: 1.5rem;
+}
+
+.txt-25 {
+  font-size: 2.5rem;
+}
+
+.txt-50 {
+  font-size: 5rem;
+}
