@@ -1,15 +1,48 @@
 @media screen and (min-width:768px) {
   
+  .f-column.min-tablet-row {
+    flex-direction: row;
+  }
+
+  .demo .cards-container {
+    justify-content: space-between;
+    align-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .demo .card {
+    width: 25%;
+    height: 45%;
+  }
+
+  .demo .card:first-child {
+    width: 70%;
+  }
+
+  .demo .card {
+    margin-bottom: 0;
+  }
 }
 
-@media screen and (min-width:1140px) {
+@media screen and (min-width:1200px) {
   
-  .mobile {
+  .f-column.min-desktop-row {
+    flex-direction: row;
+    align-content: space-between;
+  }
+  
+  .max-tablet {
     display: none;
   }
 
   .desktop {
     display: block;
   }
+
+  .header-container,
+  .container {
+    width: 60%;
+  }
+
 
 }
