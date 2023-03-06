@@ -11,17 +11,18 @@
   }
 
   .demo .card {
-    width: 25%;
+    width: 30%;
     height: 45%;
   }
 
   .demo .card:first-child {
-    width: 70%;
+    width: 65%;
   }
 
   .demo .card {
     margin-bottom: 0;
   }
+
 }
 
 @media screen and (min-width:1200px) {
@@ -44,5 +45,19 @@
     width: 60%;
   }
 
+  .planning .card:first-child {
+    width: 60%;
+  }
+
+  .planning .card-text {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .planning .card-inner {
+    width: 35%;
+  }
 
 }

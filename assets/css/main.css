@@ -17,4 +17,36 @@ main {
   align-items: center;
   justify-content: center;
   margin-bottom: 10px;
+  background-color: #B5DDFF;
+  border-radius: 20px;
+}
+
+/*SECOND SECTION - PLANNING*/
+.planning {
+  background-color: #9792E4;
+}
+
+.planning .container{
+  height: 750px;
+}
+
+.planning .cards-container {
+  height: 100%;
+}
+
+.planning .card {
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.planning .card-inner {
+  background-color: white;
+  border-radius: 20px;
+  /*debug*/
+  width: 100%;
+  height: 100%;
 }
