@@ -3,3 +3,25 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/* body {
+
+} */
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.desktop {
+  display: none;
+}
