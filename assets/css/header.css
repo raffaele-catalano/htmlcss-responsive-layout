@@ -1,0 +1,17 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  height: 80px;
+  background-color: #0084FD;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.header-container {
+  justify-content: space-between;
+  height: 100%;
+
+  color: white;
+}
