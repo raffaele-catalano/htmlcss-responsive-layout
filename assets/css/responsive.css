@@ -1,80 +1,72 @@
-@media screen and (min-width:768px) {
-  
-  .f-column.min-tablet-row {
-    flex-direction: row;
+@media all and (min-width:768px) {
+
+  .container {
+    max-width: 100%;
   }
 
-  .demo .cards-container {
-    justify-content: space-between;
-    align-content: space-around;
-    flex-wrap: wrap;
+  #intro .col:first-child {
+    width: calc(100% / 1.5);
   }
 
-  .demo .card {
-    width: 30%;
-    height: 45%;
+  #intro .col {
+    width: calc(100% / 3);
   }
 
-  .demo .card:first-child {
-    width: 65%;
+  #intro .col:first-child .col {
+    width: 50%;
   }
 
-  .demo .card {
-    margin-bottom: 0;
+  #testimonials .col:first-child {
+    width: calc(100% / 3);
   }
 
-  .testimonials .card-img {
-    width: 30%;
+  #testimonials .col {
+    width: calc(100%/ 1.5);
   }
 
-  .testimonials .card-text {
-    width: 60%;
+  #benefits .col {
+    width: 50%;
   }
+
+  #about .col {
+    width: 50%;
+  }
+
 
 }
 
-@media screen and (min-width:1200px) {
+
+
+@media all and (min-width:1200px) {
   
-  .f-column.min-desktop-row {
-    flex-direction: row;
-    align-content: space-between;
-  }
-  
-  .max-tablet {
-    display: none;
+  .container {
+    max-width: 1200px;
   }
 
-  .desktop {
+  header .burger-menu {
+    display: none;
+  }
+  
+  header .desktop-menu {
     display: block;
   }
 
-  .header-container,
-  .container {
-    width: 60%;
+  #planning .col {
+    width: 50%;
   }
 
-  .planning .card:first-child {
-    width: 60%;
+  #benefits .col {
+    width: calc(100% / 3);
   }
 
-  .planning .card-text {
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  #about .col:first-child {
+    width: calc(100% / 1.5);
+  } 
 
-  .planning .card-inner {
-    width: 35%;
-    flex-direction: column;
-  }
+  #about .col {
+    width: calc(100% / 3);
+  } 
 
-  .testimonials .card-img {
-    width: 30%;
-  }
 
-  .testimonials .card-text {
-    width: 60%;
-  }
 
 }
